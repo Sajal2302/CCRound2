@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SY Music Player</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+  <div class="music-overlay"></div>
+  <div class="music-content">
+    <div class="music-top-bar">
+      <span>Let's goo!!🎶🎶</span>
+    </div>
+    <div class="music-img-area">
+      <img src="" alt="">
+    </div>
+    <div class="music-details">
+      <p class="music-name"></p>
+      <p class="music-artist"></p>
+    </div>
+    <div class="music-progress-area">
+      <div class="music-progress-bar">
+        <audio id="audio-player" src=""></audio>
+      </div>
+      <div class="music-time-check">
+        <span class="time-current">0:00</span>
+        <span class="time-max">0:00</span>
+      </div>
+    </div>
+    <div class="music-controls">
+      <i id="repeat-playlist" class="material-icons">repeat</i>
+      <i id="previous" class="material-icons">skip_previous</i>
+      <div class="music-play-pause">
+        <i class="material-icons">play_arrow</i>
+      </div>
+      <i id="next" class="material-icons">skip_next</i>
+      <i id="music-list-icon" class="material-icons">queue_music</i>
+    </div>
+    
+    <div class="music-options">
+      
+    </div>
+  
+    <div class="music-list">
+      <div class="music-header">
+        <div class="music-row">
+          <i class="list material-icons">queue_music</i>
+          <span>All Songs🎶</span>
+        </div>
+        <i id="close-list" class="material-icons">close</i>
+      </div>
+      <ul>
+        
+      </ul>
+    </div>
+  </div>
+
+  <script src="js/musiclist.js"></script>
+  <script src="js/script.js"></script>
+
+</body>
+</html>
